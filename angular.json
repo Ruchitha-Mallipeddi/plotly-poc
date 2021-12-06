@@ -6,9 +6,7 @@
     "plotly-poc": {
       "projectType": "application",
       "schematics": {
-        "@schematics/angular:application": {
-          "strict": true
-        }
+                
       },
       "root": "",
       "sourceRoot": "src",
@@ -29,8 +27,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
-          },
+            "scripts": [
+              
+              ]          },
           "configurations": {
             "production": {
               "budgets": [
